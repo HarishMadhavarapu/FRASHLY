@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style99.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<title>
+Frashly-Grocery shopping website
+</title>
+<script>
+  function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        display.textContent = minutes + ":" + seconds;
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+window.onload = function () {
+    var fiveMinutes = 60 * 30,
+        display = document.querySelector('#time');
+    startTimer(fiveMinutes, display);
+};
+function change()
+{
+    document.getElementById("myButton1").value="ADDED TO CART"; 
+}
+</script>
+</head>
+<body>
+</div>
+<nav>
+<img src="https://i.postimg.cc/HxC7PcZQ/frashly-removebg-preview-1.png" width="150px">
+<ul>
+	<div class="mean-toggle"></div>
+<li><a href="file:///Users/suryachandra/Desktop/PROJECT99/new99.html">Home</a></li>
+<li><a href="file:///Users/suryachandra/Desktop/PROJECT99/revolution.html">Revolution</a></li>
+<li><a href="file:///Users/suryachandra/Desktop/PROJECT99/ourproducts.html">Products</a></li>
+<li><a href="file:///Users/suryachandra/Desktop/PROJECT99/advantages.html">Advantages</a></li>
+<li><a href="file:///Users/suryachandra/Desktop/PROJECT99/contactus.html">Contact Us</a></li>
+<script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/aoggitwj.json"
+    style="width:50px;height:50px" align="right">
+</lord-icon>
+<ul><div class="loginbox">
+  <form action="file:///Users/suryachandra/Desktop/PROJECT99/loginmain.html">
+<input type="emaill" placeholder="Username" class="username" >
+<input type="password" placeholder="Password" class="password" >
+<button type="submit" class="loginbtn">login</button>
+</form>
+</div>
+</ul>
+</div>
+</ul>
+<marquee direction="right" width="100%"><img src="https://i.postimg.cc/zfNJsCNX/truck-compng-removebg-preview.png" height="30px" width="100px"></marquee>
+  <p id="demo" align="center" style="color:white;"></p>
+</nav>
+<br>
+<div class="slider-container">
+  <div class="menu">
+  	 <button class="btn99" type="button" onclick="myFunction()">Apply for free Sample</button>
+<br><br><br>
+    <label for="slide-dot-1"></label>
+    <label for="slide-dot-2"></label>
+    <label for="slide-dot-3"></label>
+  </div>
+  
+  <input id="slide-dot-1" type="radio" name="slides" checked>
+    <div class="slide slide-1"></div>
+  
+  <input id="slide-dot-2" type="radio" name="slides">
+    <div class="slide slide-2"></div>
+  
+  <input id="slide-dot-3" type="radio" name="slides">
+    <div class="slide slide-3"></div>
+</div>
+<div class="box-1">
+  <h1 align="center" style="color: orangered; font-size: 40px;">Amazing Bank offers</h1>
+    <br><br>
+     <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/0d1b3df5-5cab-43a1-ab77-64d23ccc082c/2365bc54-1700-4f28-8130-d9f65075d0e7/cp_aff_m_icici_360_060422.jpg" height="200px" width="320px">
+     <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/0d1b3df5-5cab-43a1-ab77-64d23ccc082c/2365bc54-1700-4f28-8130-d9f65075d0e7/hp_aff_m_paytm_360_060422.jpg" height="200px" width="320px">
+     <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/0d1b3df5-5cab-43a1-ab77-64d23ccc082c/2365bc54-1700-4f28-8130-d9f65075d0e7/hp_aff_m_rbl_360_060422.jpg" height="200px" width="320px">
+     <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/0d1b3df5-5cab-43a1-ab77-64d23ccc082c/2365bc54-1700-4f28-8130-d9f65075d0e7/hp_aff_m_dbs-400_360_060422.jpg
+" height="200px" width="325px">
+    <br><br><br><br>
+   <h1 align="left" style="color: orangered; font-size: 30px;">Deals of Day :</h1>
+     <hr style="width: 400px; height: 10px;">
+  <h3>Deals Ends In <span id="time"> 30:00</span> minutes!</h3>
+  <br><br><br>
+  <p></p>
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <h3 style="color: #00A300;">56% OFF</h3>
+      <img src="https://i.postimg.cc/CLS1HVP1/apple.png" height="150px" width="150px">
+      <b><p>Fresho Apple - Red Delicious,Premium,4 pcs(Approx. 600g -700g)</p></b>
+      <br><br>
+       <p><b>MRP:Rs 223.75</b></p>
+      <p><b>DEAL:Rs 99</p>
+      <br>
+       <label>Select quantity:</label>
+<select id="quantity">
+  <option value="1">1 Q</option>
+  <option value="2">2 Q</option>
+  <option value="3">3 Q</option>
+</select>
+ <br>  <br>
+   <button id="btn" onclick="myFunction1()">ADD TO CART</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3 style="color: #00A300;">25% OFF</h3>
+      <img src="https://i.postimg.cc/SKBQX0Ym/chili.png" height="150px" width="150px">
+      <p>Royal Red Chilli/Lal Mirch - With Stem, 500 g</p>
+       <br> <br><br>
+       <p>MRP:Rs 200</p>
+      <p><b>DEAL:Rs 150</p>
+      <br> 
+      <label>Select quantity:</label>
+<select id="quantity">
+  <option value="1">1 Q</option>
+  <option value="2">2 Q</option>
+  <option value="3">3 Q</option>
+</select>
+ <br>  <br>
+      <button id="btn" onclick="myFunction2()">ADD TO CART</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3 style="color: #00A300;"><b>41% OFF</b></h3>
+      <img src="https://i.postimg.cc/L699g35g/garlic.png" height="150px" width="150px">
+      <p>Fresho Garlic, 1 kg</p>
+      <br> <br><br><br>
+       <p>MRP:<s>Rs 123.75</s></p>
+      <p>DEAL:<b>Rs 72<b></p>
+      <br> 
+       <label>Select quantity:</label>
+<select id="quantity">
+  <option value="1">1 Q</option>
+  <option value="2">2 Q</option>
+  <option value="3">3 Q</option>
+</select>
+ <br>  <br>
+     <button id="btn" onclick="myFunction3()">ADD TO CART</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3  style="color: #00A300;"><b>30% OFF</b></h3>
+      <img src="https://i.postimg.cc/prV2Y5JM/product-4.png" height="150px" width="150px">
+      <p>Goodlife - Toned Milk, 1 L Carton</p>
+      <br> <br><br><br>
+       <p>MRP:<s>Rs 56</s></p>
+      <p>DEAL:<b>Rs 40<b></p>
+      <br>
+       <label>Select quantity:</label>
+<select id="quantity">
+  <option value="1">1 Q</option>
+  <option value="2">2 Q</option>
+  <option value="3">3 Q</option>
+</select>
+ <br> <br> 
+    <button id="btn" onclick="myFunction4()">ADD TO CART</button>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3 style="color: #00A300;">47% OFF</h3>
+      <img src="https://i.postimg.cc/L8qbKHTM/product-2.png" height="150px" width="150px">
+      <b><p>Tomato - Local</p></b>
+      <br><br><br>
+       <p><b>MRP:Rs 36</b></p>
+      <p><b>DEAL:Rs 19</p>
+      <br>
+      <label>Select quantity:</label>
+<select id="quantity">
+       <option value="1">1 Q</option>
+  <option value="2">2 Q</option>
+  <option value="3">3 Q</option>
+  </select>
+ <br>  <br>
+   <button id="btn" onclick="myFunction5()">ADD TO CART</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3 style="color: #00A300;">45% OFF</h3>
+      <img src="https://i.postimg.cc/DfQJrqFH/product-6.png" height="150px" width="150px">
+      <p>BB Royal Organic - Almond/Badam, 200 g</p>
+       <br> <br>
+       <p>MRP:Rs 207</p>
+      <p><b>DEAL:Rs 375</p>
+      <br> 
+      <label>Select quantity:</label>
+<select id="quantity">
+  <option value="1">1 Q</option>
+  <option value="2">2 Q</option>
+  <option value="3">3 Q</option>
+</select>
+ <br>  <br>
+     <button id="btn" onclick="myFunction6()">ADD TO CART</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3 style="color: #00A300;"><b>41% OFF</b></h3>
+      <img src="https://i.postimg.cc/YqDss4Q3/product-8.png" height="150px" width="150px">
+      <p>Moowing Processed Cheese Slices 200 g (Pack)</p>
+      <br> <br>
+       <p>MRP:<s>Rs 99</s></p>
+      <p>DEAL:<b>Rs 155<b></p>
+      <br> 
+       <label>Select quantity:</label>
+<select id="quantity">
+  <option value="1">1 Q</option>
+  <option value="2">2 Q</option>
+  <option value="3">3 Q</option>
+</select>
+ <br>  <br>
+   <button id="btn" onclick="myFunction7()">ADD TO CART</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3  style="color: #00A300;"><b>40% OFF</b></h3>
+      <img src="https://i.postimg.cc/T29SnNwB/product-1.png" height="150px" width="150px">
+      <p>Fresho Banana - Nendran, 1 kg</p>
+      <br> <br><br>
+       <p>MRP:<s>Rs 54</s></p>
+      <p>DEAL:<b>Rs 90<b></p>
+      <br>
+       <label>Select quantity:</label>
+<select id="quantity">
+  <option value="1">1 Q</option>
+  <option value="2">2 Q</option>
+  <option value="3">3 Q</option>
+</select>
+ <br> <br> 
+    <button id="btn" onclick="myFunction8()">ADD TO CART</button>
+    </div>
+  </div>
+</div>
+<br> <br><br>
+<div class="contain">
+<div class="loadmore">
+<span>LOAD MORE</span>
+</div>
+<br><br><br><br>
+</div>
+<div id = "boxes">
+            <h6 align="center" style="color: green; font-size: 30px;">OUR HEALTHY CUSTOMERS!</h2>
+            <br><br><br>
+            <div id = "leftbox">
+              <div class="quot">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"/></svg>
+                </div>
+                <img src="https://i.postimg.cc/NfRc1qPQ/pic-1.png" class="person1">
+                <br>
+                <h5 style="font-family: cursive;">Got to know that organically grown, naturally processed whole foods <br>taste gourmet-style with hardly any spice. Explored how  local is the<br> new global. And more than anything, gained friends  for life. Bio<br> Basics has taught our family deep  respect for the farming <br>community and made us better foodies. Love everything about <br>frashly store.<h5>
+                <br>
+                <cite>-Shobhana Kumar, Writer, Poet, Social Worker</cite>
+            </div> 
+            <div id = "middlebox">
+              <div class="quot">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"/></svg>
+                </div>
+                <img src="file:///Users/suryachandra/Downloads/grocery%20website/image/pic-2.png" class="person2">
+                <br>
+               <h5 style="font-family: cursive;"> They recently had a seasonal run of avocados, which were the best I’ve had in India thus far. Even their carrots taste better than what you get in the market. They don’t always have stock of what you want, which to me, is further evidence of adherence to natural seasonal patterns without exploitation of resources.</h5>
+                <br><br>
+                <cite>-Amishi Doshi, Academic Coordinator, Isha Home School</cite>
+            </div>
+            <div id = "rightbox">
+              <div class="quot">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"/></svg>
+                </div>
+                <img src="file:///Users/suryachandra/Downloads/grocery%20website/image/pic-4.png" class="person3">
+                <br>
+               <h5 style="font-family: cursive;">Over the years that I have known Bio Basics and its co-founder Sreedevi Lakshmi Kutty, my interest in cooking has rekindled. Clean food is what we strive to eat and Bio Basics made it so easy for us to make that transition.<br> I get organic, locally sourced and seasonal produce there.<h5>
+                    <br><br><br>
+                     <cite>-Pankaja Srinivasan, Journalist & Writer</cite>
+            </div>
+        </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<footer>
+    <div class="foot">
+    <div class="emaill">
+    <label>
+      <form>
+        <input type="email" size="64" maxLength="64" required
+        pattern=".+@beststartupever\.com"
+          title="Please provide only a Best Startup Ever corporate e-mail address" placeholder="Enter Your Email Id..."/>
+        <input type ="button" onclick="conform()" value="SUBSCRIBE" class="btn-1" />
+      </form>
+    </label>
+</div>
+</div>
+  </footer>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+  function conform(){
+    alert("Thank you for subscribing.");
+  }
+  function myFunction2() {
+  alert("Please login to add to cart.");
+}
+function myFunction1() {
+  alert("Please login to add to cart.");
+}
+function myFunction3() {
+  alert("Please login to add to cart.");
+}
+function myFunction4() {
+  alert("Please login to add to cart.");
+}
+ function myFunction5() {
+  alert("Please login to add to cart.");
+}
+function myFunction6() {
+  alert("Please login to add to cart.");
+}
+function myFunction7() {
+  alert("Please login to add to cart.");
+}
+function myFunction8() {
+  alert("Please login to add to cart.");
+}
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+function myFunction() {
+  var txt;
+  var state = prompt("Please enter your state name:", "Delhi");
+  if (state == "Delhi"||state == "UP"||state == "Punjab" ||state == "AP" ) 
+  {
+    txt = "Congratulations ,  free sample is available in your area please login to conform your order. Thank you for showing interest in our products. ";
+  }
+  else {
+    txt = "Sorry currently stock is not available in your state.It will be available soon. Thank you for showing interest in our products.";
+  } 
+  document.getElementById("demo").innerHTML = txt;
+}
+
+</script>
+</body>
+<div class="end">
+  <br>
+<h6 align="center" class="endlines"> &#169; This website is designed and developed by Harish,Jaswanth,Arul.<h6>
+  <h6 align="center" class="endlines">Store Hours:
+Mon-Sun: (8am – 8pm) Location:
+305 Main Road.
+pagwara, punjab
+Phone: 863-926-1576
+Fax: 930-926-3666
+frashlystore.com<h6>
+  <h6 align="center" class="endlines">Help:
+FAQs
+Contact Us | Frashly Wallet FAQs | Frashly Wallet T&Cs | Vendor Connect</h6>
+</div>
+</body>
+</html>
